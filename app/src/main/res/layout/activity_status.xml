@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tabHost"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                ></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#F2F3F5">
+
+
+                    <ImageView
+                        android:src="@drawable/status_01_my_parking"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_height="77dp" />
+                    <WebView
+                        android:id="@+id/webview1"
+                        android:layout_width="390dp"
+                        android:layout_marginTop="26dp"
+                        android:layout_height="193dp"></WebView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="주 출차시간"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="42dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <TextView
+                            android:text="오전 06:00 ~ 08:00"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="42dp"
+                            android:layout_marginLeft="100dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="주 입차시간"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="42dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <TextView
+                            android:text="오후 07:10 ~ 09:00"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="42dp"
+                            android:layout_marginLeft="100dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:orientation="horizontal"
+                        android:background="#fff">
+                        <TextView
+                            android:text="출차시간검색"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="54dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <TextView
+                            android:text="오후 07:10 ~ 09:00  > "
+                            android:background="#fff"
+                            android:textColor="#888888"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="54dp"
+                            android:layout_marginLeft="80dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:orientation="horizontal"
+                        android:background="#fff">
+                        <TextView
+                            android:text="출차시간검색"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="54dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <TextView
+                            android:text="오후 07:10 ~ 09:00  > "
+                            android:textColor="#888888"
+                            android:gravity="center"
+                            android:background="#fff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="54dp"
+                            android:layout_marginLeft="80dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#F2F3F5">
+
+
+                    <WebView
+                        android:id="@+id/webview2"
+                        android:layout_width="390dp"
+                        android:layout_height="307dp"></WebView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="62dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="예상 출차 밀집시간"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="62dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <TextView
+                            android:text="오후 07:10 ~ 09:00"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="62dp"
+                            android:layout_marginLeft="70dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:orientation="horizontal"
+                        android:background="#fff">
+                        <TextView
+                            android:text="시간대 검색하기"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="54dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="50dp"
+                            />
+                        <TextView
+                            android:text="2016/06/01 (오후)07:10"
+                            android:textColor="#888888"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="54dp"
+                            android:layout_marginLeft="50dp"/>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/status_direct"
+                        android:layout_marginTop="30dp"
+                        android:layout_width="252dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/status_02_start_button"
+                        android:layout_gravity="center_horizontal"/>
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

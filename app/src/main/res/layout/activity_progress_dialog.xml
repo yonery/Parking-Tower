@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffffff">
+    <LinearLayout
+        android:background="@drawable/finish"
+        android:layout_gravity="center"
+        android:layout_width="332dp"
+        android:layout_height="267dp">
+
+        <LinearLayout
+            android:layout_marginTop="190dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp">
+
+            <Button
+                android:id="@+id/finish_check"
+                android:layout_width="288dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/finish_dialog_check"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

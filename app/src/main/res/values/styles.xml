@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#273238</item>
+        <item name="colorPrimaryDark">#273238</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">#273238</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+</resources>
